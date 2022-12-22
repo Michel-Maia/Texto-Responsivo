@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* usando o vw o tamanho vai variar muito e pode ficar muito grande ou pequeno*/
+h1 {
+    font-size: 3vw;
+}
+
+/* uso do calc tb ocorre do texto ficar muito grande ou pequeno*/
+
+.uso-calc {
+    font-size: calc(1em + 3vw);
+}
+
+
+/* uso do  clamp (minimo, desejavel , máximo
+h1 {
+    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+}
+*/
+
+
+.uso-clamp {
+    font-size: clamp(1em, 1em + 1vw, 1.25em);
+}
+
+
+
+
+
